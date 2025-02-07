@@ -35,9 +35,21 @@ entry-1e75fd92c0d6d90477e5d34abc4a7735.js:145 Uncaught Error: Minified React err
 
  ##   Steps to Reproduce
 
-   npm install
+ 1.  
+   ```bash 
+   npm install 
+   ```
+
+ 2.  
+   ```bash 
    npx expo export --platform web
+   ```
+
+ 3.  
+   ```bash 
    npx serve dist
+   ```
+
 
 The error could be seen in the JS console in Chrome/Safari
 
